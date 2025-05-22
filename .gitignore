@@ -12,7 +12,7 @@
 *.tmp
 
 # Ignore actual linked files (if someone mistakenly creates them inside dotfiles)
-.config/
+/.config/
 .zshrc
 .zprofile
 .gitconfig
