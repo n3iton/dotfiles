@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [[ ! $(xdotool getwindowfocus) ]]; then
+    i3lock -k -c 000000
+fi
+   

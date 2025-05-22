@@ -1,0 +1,11 @@
+#!/bin/bash
+
+power_status=$(cat /sys/class/power_supply/BAT0/uevent | grep STATUS= | cut -d "=" --fields 2)
+battery_percentage=$(cat /sys/class/power_supply/BAT0/uevent | grep CAPACITY= | cut -d "=" --fields 2)
+
+battery_limit=10
+
+if [[ $power_status == "Discharging" ]] && [[ $battery_percentage -le battery_limit ]]; 
+then 
+	DISPLAY=:0 i3-nagbar -m "BATTERY LOW"	
+fi
