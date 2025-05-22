@@ -1,0 +1,18 @@
+# Ignore backup/swap files
+*~
+*.swp
+*.swo
+*.bak
+
+# macOS system files
+.DS_Store
+
+# vim undo/backup
+*.un~
+*.tmp
+
+# Ignore actual linked files (if someone mistakenly creates them inside dotfiles)
+.config/
+.zshrc
+.zprofile
+.gitconfig

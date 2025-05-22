@@ -1,0 +1,9 @@
+# Ignore git and docs
+.git
+.gitignore
+README.md
+LICENSE
+.stow-local-ignore
+
+# macOS system files
+.DS_Store
