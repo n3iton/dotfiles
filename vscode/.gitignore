@@ -1,0 +1,6 @@
+# Игнорировать всё, кроме ключевых файлов
+.config/Code/User/**/*
+!.config/Code/User/settings.json
+!.config/Code/User/keybindings.json
+!.config/Code/User/snippets/*
+!.config/Code/User/extensions.json

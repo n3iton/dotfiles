@@ -1,0 +1,15 @@
+{
+    "editor.fontFamily": "'JetBrainsMono Nerd Font'",
+    "nix.enableLanguageServer": true,
+    "nix.formatterPath": "nixfmt",
+    "editor.lineNumbers": "relative",
+    "nix.serverSettings": {
+        "nil": {
+            "formatting": {
+                "command": ["nixfmt"],            
+            },
+        },
+    },
+    "editor.cursorBlinking": "solid",
+    "explorer.compactFolders": false
+}
