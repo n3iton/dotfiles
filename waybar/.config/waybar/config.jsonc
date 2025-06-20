@@ -24,7 +24,7 @@
         "hyprland/language",
         "network",
         "battery",
-        "bluetooth",
+        // "bluetooth",
         "backlight",
         "systemd-failed-units",
         "pulseaudio",

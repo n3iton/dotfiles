@@ -11,5 +11,6 @@
         },
     },
     "editor.cursorBlinking": "solid",
-    "explorer.compactFolders": false
+    "explorer.compactFolders": false,
+    "diffEditor.ignoreTrimWhitespace": true
 }
