@@ -1,0 +1,15 @@
+[pyprland]
+plugins = [
+    "scratchpads"
+]
+
+[scratchpads.volume]
+command = "pavucontrol"
+animation = "fromTop"
+class = "volume_sidemenu"
+size = "40% 70%"
+unfocus = "hide"
+excludes = "*"
+lazy = true
+margin = 90
+multi = false
