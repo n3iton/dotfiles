@@ -12,5 +12,8 @@
     },
     "editor.cursorBlinking": "solid",
     "explorer.compactFolders": false,
-    "diffEditor.ignoreTrimWhitespace": true
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.exclude": {
+        "**/.git": false
+    }
 }
