@@ -1,2 +1,4 @@
 **/.cache
 dotfiles
+Passwords
+Obsidian Vault
