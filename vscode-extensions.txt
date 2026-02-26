@@ -1,2 +1,3 @@
 asvetliakov.vscode-neovim
 jnoortheen.nix-ide
+golang.Go
