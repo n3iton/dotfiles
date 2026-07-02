@@ -18,5 +18,7 @@
     },
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
-    }
+    },
+    "terminal.integrated.defaultProfile.osx": "fish",
+    "workbench.colorTheme": "Dark Modern"
 }
