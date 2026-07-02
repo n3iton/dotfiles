@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 
 battery_info="/sys/class/power_supply/BAT0/uevent"
 power_status=$(grep "STATUS=" "$battery_info" | cut -d "=" -f2)
