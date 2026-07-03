@@ -1,3 +1,4 @@
 asvetliakov.vscode-neovim
 jnoortheen.nix-ide
 golang.Go
+continue.continue
