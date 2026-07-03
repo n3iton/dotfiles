@@ -8,6 +8,8 @@ fish_vi_key_bindings
 
 abbr -a k kubectl
 
+set EDITOR nvim
+
 fish_add_path /opt/homebrew/bin
 
 starship init fish | source
