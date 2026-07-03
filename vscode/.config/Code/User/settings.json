@@ -20,5 +20,6 @@
         "asvetliakov.vscode-neovim": 1
     },
     "terminal.integrated.defaultProfile.osx": "fish",
-    "workbench.colorTheme": "Dark Modern"
+    "workbench.colorTheme": "Dark Modern",
+    "chat.disableAIFeatures": true
 }
