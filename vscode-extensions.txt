@@ -1,7 +1,6 @@
 asvetliakov.vscode-neovim
 jnoortheen.nix-ide
 golang.Go
-continue.continue
 caponetto.vscode-diff-viewer
 task.vscode-task
 anthropic.claude-code
