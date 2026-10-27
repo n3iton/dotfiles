@@ -1,0 +1,12 @@
+[user]
+	name = n3iton
+	email = neitonmatisso@gmail.com
+
+# GitHub: clone/fetch по https (работает и без ключа, например в bootstrap и brew), push — по ssh
+[url "git@github.com:"]
+	pushInsteadOf = https://github.com/
+
+# Рабочие настройки (identity для рабочих каталогов, рабочие хосты) лежат локально
+# и в репозиторий не попадают. Если файла нет, git просто пропускает include.
+[include]
+	path = ~/.config/git/local

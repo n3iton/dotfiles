@@ -16,3 +16,11 @@
 .zshrc
 .zprofile
 .gitconfig
+
+# Локальные файлы и ключи рядом со стоу-пакетами git и ssh не должны попасть в репозиторий,
+# даже если stow когда-нибудь свернёт ~/.ssh или ~/.config/git в ссылку на этот каталог
+git/.config/git/*
+!git/.config/git/config
+!git/.config/git/ignore
+ssh/.ssh/*
+!ssh/.ssh/config
