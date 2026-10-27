@@ -24,3 +24,6 @@ git/.config/git/*
 !git/.config/git/ignore
 ssh/.ssh/*
 !ssh/.ssh/config
+
+# Универсальные переменные fish — состояние конкретной машины, fish переписывает файл сам
+fish/.config/fish/fish_variables
