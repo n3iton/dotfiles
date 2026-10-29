@@ -25,6 +25,10 @@ if type -q trdl
     and fish_add_path -g $flint_bin
 end
 
+if type -q flint
+    flint completion --shell=fish | source
+end
+
 if type -q d8
     d8 completion fish | source
 end
