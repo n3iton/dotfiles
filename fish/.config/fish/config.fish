@@ -16,7 +16,14 @@ set EDITOR nvim
 
 fish_add_path /opt/homebrew/bin
 fish_add_path ~/go/bin
-fish_add_path ~/.trdl/repositories/flint/releases/2.1.3/darwin-arm64/bin
+fish_add_path -g ~/bin
+
+# flint ставится через trdl, и в пути к нему есть версия, поэтому берём путь у самого trdl
+# (trdl use умеет готовить скрипт только для sh и pwsh)
+if type -q trdl
+    set -l flint_bin (trdl bin-path flint 2 stable 2>/dev/null)
+    and fish_add_path -g $flint_bin
+end
 
 if type -q d8
     d8 completion fish | source
